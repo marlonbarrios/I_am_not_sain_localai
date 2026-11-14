@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local speech models (shared or downloaded on first run)
+models/
